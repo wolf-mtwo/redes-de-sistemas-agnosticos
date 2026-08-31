@@ -12,20 +12,18 @@ Materia que cubre la comunicación entre sistemas independientes de plataforma o
 - Conexión entre dos computadoras a nivel de sistema
 - Envío y recepción de datos por TCP/UDP
 - Construcción de protocolos que viajan por la red
+- MQTT
 - Sockets para IoT
 - Colas de mensajes / eventos (tipo SQS, pub-sub)
 - Event listeners
 - Datos en tiempo real
-
-### Estructuras de datos
-- Arrays / Listas
-- Pilas (Stacks) y Colas (Queues)
-- Árboles (Trees)
-- Tablas hash (Hash Maps)
-- Grafos (Graphs)
-- Buffers circulares (Ring Buffers)
+- Capas del modelo de comunicación (8 capas: física, enlace, red, transporte, sesión, presentación, aplicación, usuario/negocio)
 
 ### Serialización
+- [Serialización de valores primitivos](docs/serializacion-valores-primitivos.md)
+- [Deserialización de valores primitivos](docs/deserializacion-valores-primitivos.md)
+- [Serialización binaria de objetos](docs/serializacion-binaria-objetos.md)
+- [Deserialización binaria de objetos](docs/deserializacion-binaria-objetos.md)
 - JSON
 - XML
 - Protocol Buffers (protobuf)
@@ -40,6 +38,7 @@ Materia que cubre la comunicación entre sistemas independientes de plataforma o
 - Buffering y backpressure
 
 ### Binario y hexadecimal
+- [Ruta: de binario a serialización de objetos](docs/ruta-binario-a-serializacion.md)
 - Representación binaria de datos
 - Notación hexadecimal
 - Operaciones a nivel de bits (AND, OR, XOR, shifts)
