@@ -8,16 +8,22 @@ Materia que cubre la comunicación entre sistemas independientes de plataforma o
 
 ## Temas y clases
 
-### Redes y protocolos
-- Conexión entre dos computadoras a nivel de sistema
-- Envío y recepción de datos por TCP/UDP
-- Construcción de protocolos que viajan por la red
-- MQTT
-- Sockets para IoT
-- Colas de mensajes / eventos (tipo SQS, pub-sub)
-- Event listeners
-- Datos en tiempo real
+### Capas del modelo de comunicación
 - Capas del modelo de comunicación (8 capas: física, enlace, red, transporte, sesión, presentación, aplicación, usuario/negocio)
+
+### Binario y hexadecimal
+- [Ruta: de binario a serialización de objetos](docs/ruta-binario-a-serializacion.md)
+- Representación binaria de datos
+- Notación hexadecimal
+- Operaciones a nivel de bits (AND, OR, XOR, shifts)
+- Endianness (Big-endian / Little-endian)
+- Codificación de caracteres (ASCII, UTF-8)
+
+### Buffers
+- Buffers de lectura/escritura (Read/Write Buffers)
+- ArrayBuffer / TypedArrays
+- Byte streams
+- Buffering y backpressure
 
 ### Serialización
 - [Serialización de valores primitivos](docs/serializacion-valores-primitivos.md)
@@ -31,19 +37,17 @@ Materia que cubre la comunicación entre sistemas independientes de plataforma o
 - Serialización binaria personalizada
 - Marshalling / Unmarshalling
 
-### Buffers
-- Buffers de lectura/escritura (Read/Write Buffers)
-- ArrayBuffer / TypedArrays
-- Byte streams
-- Buffering y backpressure
+### Protocolos de comunicación
+- Conexión entre dos computadoras a nivel de sistema
+- Construcción de protocolos que viajan por la red
+- Colas de mensajes / eventos (tipo SQS, pub-sub)
+- Event listeners
 
-### Binario y hexadecimal
-- [Ruta: de binario a serialización de objetos](docs/ruta-binario-a-serializacion.md)
-- Representación binaria de datos
-- Notación hexadecimal
-- Operaciones a nivel de bits (AND, OR, XOR, shifts)
-- Endianness (Big-endian / Little-endian)
-- Codificación de caracteres (ASCII, UTF-8)
+### Transporte de datos en tiempo real
+- Envío y recepción de datos por TCP/UDP
+- Sockets para IoT
+- MQTT
+- Datos en tiempo real
 
 ### Seguridad
 - Autenticación y autorización
