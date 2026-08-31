@@ -3,6 +3,18 @@
 Protocolos que usan directamente los programas: HTTP, MQTT, DNS, etc.
 
 **Ejemplos:**
-1. Comando `curl https://example.com` — hablar HTTP (capa de aplicación).
-2. JavaScript: `fetch('https://api.example.com')`.
-3. Java: `HttpClient.newHttpClient().send(...)` (paquete `java.net.http`).
+
+1. Comando — hablar HTTP (capa de aplicación)
+```bash
+curl https://example.com
+```
+
+2. JavaScript
+```javascript
+fetch('https://api.example.com');
+```
+
+3. Java — paquete `java.net.http`
+```java
+HttpClient.newHttpClient().send(request, BodyHandlers.ofString());
+```

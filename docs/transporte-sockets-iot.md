@@ -3,6 +3,20 @@
 Conexiones ligeras y de bajo consumo entre dispositivos con recursos limitados.
 
 **Ejemplos:**
-1. C#: `UdpClient` en un microcontrolador con .NET nanoFramework para enviar lecturas de un sensor.
-2. Java: `DatagramSocket` en una app Android que recibe datos de un dispositivo IoT.
-3. Comando: `socat - UDP:192.168.1.50:9000` — probar un socket UDP hacia un dispositivo IoT.
+
+1. C# — enviar lecturas de un sensor (.NET nanoFramework)
+```csharp
+var udpClient = new UdpClient();
+udpClient.Send(datos, datos.Length, "192.168.1.50", 9000);
+```
+
+2. Java — recibir datos de un dispositivo IoT en una app Android
+```java
+DatagramSocket socket = new DatagramSocket(9000);
+socket.receive(paquete);
+```
+
+3. Comando — probar un socket UDP hacia un dispositivo IoT
+```bash
+socat - UDP:192.168.1.50:9000
+```
