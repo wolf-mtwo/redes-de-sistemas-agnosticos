@@ -136,7 +136,7 @@ La metodología del módulo combina exposición docente con práctica guiada y a
 2. **Demostración en vivo (live coding)** de al menos un ejemplo práctico en C#, JavaScript o Java, según la herramienta más representativa del tema.
 3. **Ejercicio guiado o práctica autónoma**, en la que el estudiante replica, modifica o extiende el ejemplo trabajado.
 
-Se emplea además aprendizaje basado en proyectos: a partir de la III Unidad los estudiantes inician el diseño de un proyecto integrador de comunicación entre sistemas agnósticos, que consolidan y sustentan en la IV Unidad. Se promueve el trabajo colaborativo mediante la discusión de soluciones en pares o pequeños grupos, y el uso de herramientas de análisis de red (por ejemplo, Wireshark) para observar el comportamiento real de los protocolos estudiados.
+Se emplea además aprendizaje basado en proyectos: a partir de la III Unidad los estudiantes inician el diseño de un proyecto integrador de comunicación entre sistemas agnósticos, que consolidan y sustentan en la IV Unidad. Se promueve el trabajo colaborativo mediante la discusión de soluciones en pares o pequeños grupos, y el uso de herramientas de análisis de red (por ejemplo, Wireshark) para observar el comportamiento real de los protocolos estudiados. El uso de herramientas de inteligencia artificial (IA) es prioritario en el módulo: se promueve su uso responsable como apoyo al aprendizaje, la investigación y el desarrollo de las prácticas de programación.
 
 ## 10. Evaluación del Aprendizaje
 
@@ -161,3 +161,12 @@ Se emplea además aprendizaje basado en proyectos: a partir de la III Unidad los
 8. OASIS. (2019). *MQTT Version 5.0 Specification*. https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html
 9. Internet Engineering Task Force. (1981-2018). *RFC 791 (Internet Protocol)*, *RFC 793 (TCP)*, *RFC 768 (UDP)*, *RFC 8446 (TLS 1.3)*. https://www.rfc-editor.org/
 10. Mozilla Developer Network. (s.f.). *ArrayBuffer, TypedArray y JSON*. https://developer.mozilla.org/
+
+## 12. Cláusula de Uso de Inteligencia Artificial (IA)
+
+El uso de herramientas de inteligencia artificial (IA) es prioritario en el desarrollo del módulo. Se establecen los siguientes lineamientos para su uso responsable:
+
+1. **Uso como apoyo prioritario:** las herramientas de IA (asistentes de código, chatbots, generadores de texto) se promueven activamente como apoyo al aprendizaje, la investigación y el desarrollo de las prácticas de programación en cada unidad del módulo.
+2. **Comprensión exigida en clase:** dado que la metodología incluye demostración en vivo (live coding) y ejercicio guiado en cada sesión, el estudiante debe poder reproducir, modificar y justificar en clase cualquier solución que presente, haya usado o no asistencia de IA.
+3. **Transparencia:** en el proyecto integrador (IV Unidad), el estudiante debe poder indicar qué partes de su solución se apoyaron en herramientas de IA y qué aportó él o ella al diseño.
+4. **Responsabilidad sobre el resultado:** el estudiante es responsable de la corrección, seguridad y funcionamiento del código que entrega, independientemente de la herramienta usada para producirlo.
