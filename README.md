@@ -198,6 +198,22 @@ Cada competencia (criterio C.1–C.4) corresponde a un tema, subdividido en 4 su
 | C.4 | | 4.4. Firmas digitales, intercambio de claves y PKI | Crear | E.4 | 7 |
 | | | **Total** | | | **100** |
 
+### Distribución según nivel cognitivo
+
+| Taxonomía | I (C.1) | II (C.2) | III (C.3) | IV (C.4) | Nº ítems |
+|---|---|---|---|---|---|
+| Recordar | 0 | 0 | 0 | 0 | 0 |
+| Comprensión | 1 | 0 | 1 | 0 | 2 |
+| Aplicar | 1 | 1 | 2 | 1 | 5 |
+| Analizar | 0 | 1 | 0 | 1 | 2 |
+| Evaluar | 0 | 0 | 0 | 0 | 0 |
+| Crear | 0 | 0 | 1 | 0 | 1 |
+| **Totales** | **2** | **2** | **4** | **2** | **10** |
+
+## Perfil de referencia para el examen sumativo
+
+Ver [Perfil de referencia para el examen sumativo](docs/perfil-referencia-examen-sumativo.md).
+
 ## Temas y clases
 
 ### [Capas del modelo de comunicación](docs/capas-modelo-comunicacion.md)
